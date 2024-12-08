@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 import unidecode
 # импорты
 
-df = pd.read_excel('football_dataset.xlsx', engine='openpyxl')
+df = pd.read_excel('football_dataset.xlsx')
 df.head()
 
 def clean_soccer_data(df):
